@@ -4,3 +4,9 @@
 [submodule "lib/forge-zksync-std"]
 	path = lib/forge-zksync-std
 	url = https://github.com/Moonsong-Labs/forge-zksync-std
+[submodule "lib/zksync-contracts"]
+	path = lib/zksync-contracts
+	url = https://github.com/cyfrin/zksync-contracts
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts

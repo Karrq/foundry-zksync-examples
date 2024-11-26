@@ -2,5 +2,14 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
+solc = "0.8.26"
+fs_permissions = [
+    { access = "read-write", path = "zkout"},
+]
+
+[profile.default.zksync]
+startup = true
+compile = true
+zksolc = "1.5.7"
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
