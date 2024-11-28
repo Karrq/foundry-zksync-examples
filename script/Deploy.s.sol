@@ -13,7 +13,7 @@ contract DeployCounterWithBytecodeHash is Script, TestExt {
         // Read artifact file and get the bytecode hash
         string memory artifact = vm.readFile("zkout/Counter.sol/Counter.json");
         bytes32 counterBytecodeHash = vm.parseJsonBytes32(artifact, ".hash");
-        bytes32 salt = "ASDASDASKDasdsAS";
+        bytes32 salt = "JUAN";
 
         vm.startBroadcast();
         Factory factory = new Factory(counterBytecodeHash);
