@@ -1,0 +1,2 @@
+@matterlabs/era-contracts/=lib/zksync-contracts/zksync-contracts/l2/system-contracts/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
