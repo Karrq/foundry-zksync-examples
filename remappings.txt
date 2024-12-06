@@ -1,2 +1,2 @@
-zksync-contracts/=lib/zksync-contracts/
+zksync-contracts/=lib/zksync-contracts/zksync-contracts/
 @openzeppelin/=lib/openzeppelin-contracts/
