@@ -2,5 +2,9 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+solc = "0.8.19"
+
+[profile.default.zksync]
+zksolc = "1.5.1"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
