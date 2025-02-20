@@ -1,4 +1,4 @@
-export RUST_LOG := "debug,hyper=off,reqwest=off,mio=off,alloy_rpc_client=off,alloy_transport_http=off"
+export RUST_LOG := "debug,hyper=off,reqwest=off,mio=off,alloy_rpc_client=off,alloy_transport_http=off,foundry_zksync_core=trace,foundry_zksync_core::vm::storage_view=off"
 export ZK_DEBUG_RESOLVE_HASHES := "true"
 export ZK_DEBUG_HISTORICAL_BLOCK_HASHES := "1"
 
